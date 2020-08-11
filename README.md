@@ -8,7 +8,7 @@ A GitHub Pages template to serve a Vue application.
 
 Get started in minutes with these instructions:
 
-1. Create a repository from this template.
+1. Create a repository from this template (include all branches).
 2. Rename your repository to `<username>.github.io`.
 3. Make sure that GitHub Pages uses the `build` branch. 
 
