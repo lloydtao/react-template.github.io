@@ -14,6 +14,8 @@ Get started in minutes with these instructions:
 
 The branch can be selected at `Settings -> Options -> GitHub Pages -> Source`.
 
+*This may take a minute or two to update*.
+
 ### Architecture
 
 This is real simple:
