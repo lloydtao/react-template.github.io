@@ -44,6 +44,11 @@ Second, configure your DNS host records with your domain provider.
 - Create an **A** record for host "@" pointing to `185.199.109.153`.
 - Create an **A** record for host "@" pointing to `185.199.110.153`.
 - Create an **A** record for host "@" pointing to `185.199.111.153`.
+
+**Subdomains**
+
+You can configure a subdomain, such as `www.[example.com]`, with your DNS host records.
+
 - Create a **CNAME** record for host "www" pointing to `<username>.github.io`.
 
 ## Contributing
