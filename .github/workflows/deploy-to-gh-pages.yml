@@ -23,4 +23,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: build
-          FOLDER: project/dist
+          FOLDER: project/build
