@@ -47,7 +47,7 @@ Second, configure your DNS host records with your domain provider.
 
 **Subdomains**
 
-You can configure a subdomain, such as `www.[example.com]`, with your DNS host records.
+You can configure a subdomain, such as `www.[example.com]`, in your DNS host records.
 
 - Create a **CNAME** record for host "www" pointing to `<username>.github.io`.
 
