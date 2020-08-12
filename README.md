@@ -2,6 +2,8 @@
 
 A GitHub Pages template to serve a Vue application.
 
+Demo: https://vue.lloyd.cx/
+
 ## Getting Started
 
 ### Usage
