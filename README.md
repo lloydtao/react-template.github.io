@@ -47,9 +47,24 @@ Second, configure your DNS host records with your domain provider.
 
 **Subdomains**
 
-You can configure a subdomain, such as `www.[example.com]`, with your DNS host records.
+You can configure a subdomain, such as `www.[example.com]`, in your DNS host records.
 
 - Create a **CNAME** record for host "www" pointing to `<username>.github.io`.
+
+### Infinite Hosting
+
+Want to know what makes this awesome? You can have a repository for each and every subdomain.
+
+1. Create a repository from this template with any name (include all branches).
+2. Enable GitHub Pages for it (`Settings -> Options -> GitHub Pages -> Source`).
+3. In the `CNAME` file, replace `example.com` with your apex and subdomain (i.e. `blog.[example.com]`).
+4. With your domain provider, create a **CNAME** record for host "`[blog]`" pointing to `<username>.github.io`.
+
+Why does this work? 
+
+The repo's GitHub Pages already hosts itself at <username>.github.io/<repo>, since GitHub sets up the environment and deployment for you when you enable Pages.
+
+The CNAME just puts it on its own subdomain, instead of in its own subdirectory.
 
 ## Contributing
 
