@@ -30,6 +30,22 @@ Any commits pushed or merged into `master` will trigger the build action.
 
 These changes will be reflected on your GitHub Pages site after around 60 seconds.
 
+### Domain Names
+
+**Apex Domain**
+
+First, set your domain name within the GitHub repositry.
+
+- In the `CNAME` file, replace `example.com` with your domain.
+
+Second, configure your DNS host records with your domain provider.
+
+- Create an **A** record for host "@" pointing to `185.199.108.153`.
+- Create an **A** record for host "@" pointing to `185.199.109.153`.
+- Create an **A** record for host "@" pointing to `185.199.110.153`.
+- Create an **A** record for host "@" pointing to `185.199.111.153`.
+- Create a **CNAME** record for host "www" pointing to `<username>.github.io`.
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
