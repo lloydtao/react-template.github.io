@@ -1,6 +1,6 @@
 ![React on GitHub Pages](React-GitHub-Pages.png)
 
-# React-template.github.io
+# react-template.github.io
 
 A GitHub Pages template to serve a React application.
 
